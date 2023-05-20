@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    .navbar1{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 45%;
+        position: relative;
+        .logo{
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            color: #FFAE2B;
+        }
+    }
+}
+li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #ACA592;
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 24px;
+        &:hover{
+            color: #FFAE2B;
+        }
+    }
+}
+button{
+    position: absolute;
+    right: 5%;
+    width: 147px;
+    height: 52px;
+    background-color: transparent;
+    border:1px solid  #FFAE2B;
+    border-radius: 5px;
+    &:hover{
+        border-color: white;
+    }
+    a{
+        color:  #FFAE2B;
+        text-decoration: none;
+        &:hover{
+            color: white;
+        }
+
+    }
+}
+.pag1{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-image: url('../css/IMAGE.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:5%;
+    padding-top: 10%;
+    position: relative;
+    p{
+        color: #FFAE2B;
+        text-align: center;
+       
+    }
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        font-family: sans-serif;
+        font-weight: 400;
+        line-height: 80px;
+
+    }
+}
+.button1{
+    position: absolute;
+    left: 48%;
+    top: 60%;
+    width: 143px;
+    height: 50px;
+    background-color: #FFAE2B;
+    a{
+        color: black;
+        font-size: 11px;
+        line-height: 22px;
+        font-weight: 400;
+        &:hover{
+            color: white;
+        }
+    }
+}
+.pag2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 20px 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pag22{
+    background-color:transparent;
+    border: 1px solid ;
+    border-color: #4B4136;
+}
+.pag22:nth-child(1){
+    grid-column:1/4 ;
+    padding-top: 5%;
+    background-color: transparent;
+    border-color: transparent;
+    .p1{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #ACA592;
+    }
+    .hw{
+        color: #FFAE2B;
+        text-align: center;
+        font-size: 60px;
+        font-family: sans-serif;
+        line-height: 70px;
+        font-weight: 400;
+    }
+}
+@mixin pag1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag22:nth-child(2){
+  background-image: url('../images/IMAGE.png');
+  @include pag1();
+
+}
+.pag22:nth-child(3){
+    background-image: url('../images/IMAGE-9.png');
+    @include pag1();
+
+
+}
+.pag22:nth-child(4){
+    background-image: url('../images/IMAGE-8.png');
+    @include pag1();
+}
+.pag22:nth-child(5){
+    background-image:url('../images/IMAGE-7.png');
+    @include pag1();
+
+}
+.pag22:nth-child(6){
+    background-image: url('../images/IMAGE-6.png');
+    @include pag1();
+
+}
+.pag22:nth-child(7){
+    background-image: url('../images/IMAGE-5.png');
+    @include pag1();
+
+}
+.pag22:nth-child(8){
+    background-image: url('../images/IMAGE-4.png');
+    @include pag1();
+
+}
+.pag22:nth-child(9){
+    background-image: url('../images/IMAGE-3.png');
+    @include pag1();
+
+}
+.pag22:nth-child(10){
+ background-image: url('../images/IMAGE-20.png');
+ @include pag1();
+}
+.pag22:nth-child(11){
+    background-image: url('../images/IMAGE-19.png');
+    @include pag1();
+
+}
+.pag22:nth-child(12){
+    background-image: url('../images/IMAGE-18.png');
+    @include pag1();
+}
+.pag22:nth-child(13){
+    background-image: url('../images/IMAGE-17.png');
+    @include pag1();
+
+}
+.pag22:nth-child(14){
+    background-image: url('../images/IMAGE-16.png');
+    @include pag1();
+
+}
+.pag22:nth-child(15){
+    background-image: url('../images/IMAGE-15.png');
+    @include pag1();
+
+}
+.pag22:nth-child(16){
+    background-image: url('../images/IMAGE-14.png');
+    @include pag1();
+
+}
+.pag22:nth-child(17){
+    background-image: url('../images/IMAGE-13.png');
+    @include pag1();
+
+}
+.pag22:nth-child(18){
+    background-image: url('../images/IMAGE-12.png');
+    @include pag1();
+
+}
+.pag22:nth-child(19){
+    background-image: url('../images/IMAGE-11.png');
+    @include pag1();
+
+}
+.pag22:nth-child(20){
+    background-image: url('../images/IMAGE-10.png');
+    @include pag1();
+
+}
+.pag22:nth-child(21){
+    background-image: url('../images/IMAGE-9.png');
+    @include pag1();
+
+}
+.pag22:nth-child(22){
+    background-image: url('../images/IMAGE-8.png');
+    @include pag1();
+
+}
+.pagp{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 8%;
+    .pagpp{
+        width: 100%;
+        height: 600px;
+        background-image: url('../css/IMAGE1.png');
+        @include pag1();
+    }
+}
+.pag3{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    h5{
+        position: absolute;
+        left: 45%;
+        top: 0%;
+        color: #ACA592;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 22px;
+    }
+    .hn{
+        position: absolute;
+        left: 37%;
+        top: 5%;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 60px;
+        line-height: 70px;
+        color: #FFAE2B;
+    }
+}
+.pag33{
+    position: absolute;
+    left: 160px;
+    top: 216px;
+    width: 400px;
+    height: 350px;
+    background-color: transparent;
+    border: 1px solid #4B4136;
+}
+.pag34{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    background-color: transparent;
+    border: 1px solid #4B4136;
+}
+.pag35{
+    position: absolute;
+    top: 235px;
+    right: 160px;
+    width: 400px;
+    height: 350px;
+    background-color: transparent;
+    border: 1px solid #4B4136;
+}
+.logo1{
+    width: 45.3px;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: 20%;
+    background-image: url('../css/Group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo2{
+    width: 45.3px;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: 20%;
+    background-image: url('../css/Group\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo3{
+    width: 45.3px;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: 20%;
+    background-image: url('../css/Group\ \(2\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: #FFAE2B;
+    margin-left: 20px;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+}
+.l1{
+    color: #ACA592;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;  
+}
+.pag4{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.nacbar{
+    width: 1200px;
+    height: 282px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 1px solid #4B4136;
+    border-left: transparent;
+    border-right: transparent;
+    background-image: url('../css/Vector.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    position: relative;
+}
+.div{
+    width: 217px;
+    height: 240px;
+    background-color: transparent;
+}
+@mixin in{
+    position: absolute;
+    left: 40%;
+    bottom: 93%;
+    width: 50px;
+    height: 50px;
+    background-image: url('../css/Vector1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div:nth-child(1){
+    position: relative;
+    background-image:url('../css/IMAGEe.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .in{
+        @include in();
+    }
+}
+.div:nth-child(2){
+    background-image: url('../css/IMAGE\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .in{
+        @include in();
+    }
+}
+.div:nth-child(3){
+    width: 350px;
+    height: 240px;
+    background-color: transparent;
+    h2{
+        text-align: center;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 40px;
+        color: #FFAE2B;
+        line-height: 50px;
+    }
+    .bn{
+        position: absolute;
+        left: 45%;
+        width: 122px;
+        height: 50px;
+        background-color: #FFAE2B;
+        li{
+            color: black;
+            font-size: 11px;
+            font-family: sans-serif;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+}
+.div:nth-child(4){
+    background-image: url('../css/IMAGE\ \(2\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .in{
+        @include in();
+    }
+}
+.div:nth-child(5){
+    background-image: url('../css/IMAGE\ \(3\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .in{
+        @include in();
+    }
+}
+.pag5{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+   position: relative;
+    .h12{
+        text-align: center;
+        color: #FFAE2B;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        font-family: sans-serif;
+    }
+    .h13{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        color:#ACA592;
+        &:hover{
+            color: #FFAE2B  ;
+        }
+    }
+}
+input{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    width: 420px;
+    height: 59px;
+    background-color: transparent;
+    border: 1px solid #4B4136;
+}
+.bbc{
+    position: absolute;
+    left: 35%;
+    top: 52%;
+    width: 420px;
+    height: 59px;
+    background-color: #FFAE2B;
+    border-radius: none;
+}
+h4{ text-align: center;
+    position: absolute;
+    left: 36%;
+    top: 65%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ACA592;
+    span{
+        color: #FFAE2B;
+    }
+}
+.rasm{
+    position: absolute;
+    left: 42%;
+    top:80%;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+@mixin q1{
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    border: 1px solid #4B4136;
+}
+.q1{
+    background-image: url('../css/IMAGE\ \(4\).png');
+   @include q1();
+}
+.q2{
+    @include q1();
+    background-image: url('../css/Groupp.png');
+}
+.q3{
+    @include q1();
+    background-image: url('../css/Frame.png');
+    background-size: cover;
+}
+.q4{    
+    @include q1();
+    background-image: url('../css/Frame\ \(1\).png');
+    background-size: cover;
+}
+.pasq{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border: 1px solid #4B4136;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 70%;
+    position: relative;
+    .p2{
+        position:absolute;
+        left: 2%;
+        color: #ACA592;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        span{
+            color: #FFAE2B;
+        }
+    }
+    .a1{
+        text-decoration: none;
+        color: #FFAE2B;
+        font-size: 11px;
+        line-height: 30px;
+        font-weight: 400;
+        font-family: sans-serif;
+        margin: 5px;
+    }
+}
